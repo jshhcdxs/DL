@@ -66,6 +66,6 @@ def repair_picture(image_path):
     cv2.destroyAllWindows() 
     
 if __name__ == "__main__":
-    #将手机截屏图片放到这里，此处为iphone6s截屏，所以图片尺寸高为1334, 宽为750，如果使用其他手机截屏，需先将图片像素尺寸调整到这个数值上（ps处理或者resize函数）。
-    repair_picture("34.png")
+    #将手机截屏图片放到这里，此处为iphone6s截屏，所以图片尺寸高为1334, 宽为750，如果使用iphoneplus，请选用同目录下hi_alipay_ar_iphoneplus.py。
+    repair_picture("a.png")
     
